@@ -1,0 +1,19 @@
+{
+	"name": "gk-utilities",
+	"version": "1.0.0",
+	"description": "",
+	"main": "package.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/Mephiles/npm-utilities.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/Mephiles/npm-utilities/issues"
+	},
+	"homepage": "https://github.com/Mephiles/npm-utilities#readme"
+}
