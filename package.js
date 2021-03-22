@@ -1,3 +1,5 @@
+const sha256 = require('js-sha256');
+
 export default class Utilities {
 	static Time = {
 		months: [
@@ -112,6 +114,12 @@ export default class Utilities {
 			}
 
 			return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ',');
+		},
+	};
+
+	static Encrypt = {
+		Hash256: (text) => {
+			return sha256(text);
 		},
 	};
 }
